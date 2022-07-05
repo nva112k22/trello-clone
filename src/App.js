@@ -1,10 +1,111 @@
 
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className='hello-world'>Hello world</h1>
+    <div className="trello-nvadev-master">
+      <nav className="navbar app">App Bar</nav>
+      <nav className="navbar board">Board Bar</nav>
+      <div className="board-colums">
+        <div className="column">
+          <header>Brainstorm</header>
+          <ul>
+            <li>
+              <img src="./anhnam.jpg" alt="nvadev-alt-img" />
+              Title: NVADEV
+            </li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+          </ul>
+          <footer>Add another card</footer>
+        </div>
+        <div className="column">
+          <header>Brainstorm</header>
+          <ul>
+            <li>
+              <img src="./anhnam.jpg" alt="nvadev-alt-img" />
+              Title: NVADEV
+            </li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+          </ul>
+          <footer>Add another card</footer>
+        </div>
+        <div className="column">
+          <header>Brainstorm</header>
+          <ul>
+            <li>
+              <img src="./anhnam.jpg" alt="nvadev-alt-img" />
+              Title: NVADEV
+            </li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+          </ul>
+          <footer>Add another card</footer>
+        </div>
+        <div className="column">
+          <header>Brainstorm</header>
+          <ul>
+            <li>
+              <img src="./anhnam.jpg" alt="nvadev-alt-img" />
+              Title: NVADEV
+            </li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+          </ul>
+          <footer>Add another card</footer>
+        </div>
+        <div className="column">
+          <header>Brainstorm</header>
+          <ul>
+            <li>
+              <img src="./anhnam.jpg" alt="nvadev-alt-img" />
+              Title: NVADEV
+            </li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+          </ul>
+          <footer>Add another card</footer>
+        </div>
+        <div className="column">
+          <header>Brainstorm</header>
+          <ul>
+            <li>
+              <img src="./anhnam.jpg" alt="nvadev-alt-img" />
+              Title: NVADEV
+            </li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+          </ul>
+          <footer>Add another card</footer>
+        </div>
+        <div className="column">
+          <header>Brainstorm</header>
+          <ul>
+            <li>
+              <img src="./anhnam.jpg" alt="nvadev-alt-img" />
+              Title: NVADEV
+            </li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+          </ul>
+          <footer>Add another card</footer>
+        </div>
+      </div>
     </div>
   );
 }
